@@ -22,3 +22,9 @@ body {
   p, li, dd, dt, address {
     line-height: 1.5;
   }
+  address{
+    font-style: normal;
+  }
+  div.city {
+    text-indent: 50px;
+  }
