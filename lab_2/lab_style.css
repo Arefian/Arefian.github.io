@@ -19,12 +19,12 @@ body {
     font-size: 1.1em;
   }
   
-  p, li, dd, dt, address {
+  p, li, div.dd, dt, address {
     line-height: 1.5;
   }
   address{
     font-style: normal;
   }
-  div.city {
-    text-indent: 50px;
+  div.one {
+    text-align: right;
   }
