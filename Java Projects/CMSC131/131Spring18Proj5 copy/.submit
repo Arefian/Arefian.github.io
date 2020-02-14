@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course CMSC131-020X
+#  Project 5 - Poker: Poker Simulator
+
+courseName=CMSC131-020X
+semester=201801
+projectNumber=5 - Poker
+courseKey=26d58d211dc3ecad
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/spring2018
+submitURL=https://submit.cs.umd.edu:443/spring2018/eclipse/SubmitProjectViaEclipse
