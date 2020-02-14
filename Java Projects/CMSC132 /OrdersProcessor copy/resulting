@@ -1,0 +1,74 @@
+Item's name: MovieRental, Cost per item:4.0, Quantity: 1, Cost:4.0
+Item's name: Phone, Cost per item:13.75, Quantity: 1, Cost:13.75
+Item's name: Shoes, Cost per item:30.0, Quantity: 2, Cost:60.0
+Item's name: Song, Cost per item:2.0, Quantity: 3, Cost:6.0
+Item's name: Textbook, Cost per item:25.0, Quantity: 1, Cost:25.0
+This is the inventory price: 108.75----- Order details for client with Id:1001 -----
+Item's name: Blu-Ray, Cost per item: 15.0, Quantity: 2, Cost: 30.0
+Item's name: Lamp, Cost per item: 3.5, Quantity: 1, Cost: 3.5
+Item's name: Phone, Cost per item: 13.75, Quantity: 2, Cost: 27.5
+Item's name: Shoes, Cost per item: 30.0, Quantity: 1, Cost: 30.0
+Item's name: Song, Cost per item: 2.0, Quantity: 1, Cost: 2.0
+
+Order Total: 93.0
+----- Order details for client with Id:1002 -----
+Item's name: MovieRental, Cost per item: 4.0, Quantity: 1, Cost: 4.0
+Item's name: Phone, Cost per item: 13.75, Quantity: 1, Cost: 13.75
+Item's name: Shoes, Cost per item: 30.0, Quantity: 2, Cost: 60.0
+Item's name: Song, Cost per item: 2.0, Quantity: 3, Cost: 6.0
+Item's name: Textbook, Cost per item: 25.0, Quantity: 1, Cost: 25.0
+
+Order Total: 108.75
+----- Order details for client with Id:1003 -----
+Item's name: Lamp, Cost per item: 3.5, Quantity: 2, Cost: 7.0
+Item's name: MovieRental, Cost per item: 4.0, Quantity: 1, Cost: 4.0
+Item's name: Phone, Cost per item: 13.75, Quantity: 2, Cost: 27.5
+
+Order Total: 38.5
+----- Order details for client with Id: 1001 -----
+Item's name: $Blu-Ray, Cost per item: $15.0, Quantity: $2, Cost: $30.0
+Item's name: $Lamp, Cost per item: $3.5, Quantity: $1, Cost: $3.5
+Item's name: $Phone, Cost per item: $13.75, Quantity: $2, Cost: $27.5
+Item's name: $Shoes, Cost per item: $30.0, Quantity: $1, Cost: $30.0
+Item's name: $Song, Cost per item: $2.0, Quantity: $1, Cost: $2.0
+Order Total: $93.0
+----- Order details for client with Id: 1002 -----
+Item's name: $MovieRental, Cost per item: $4.0, Quantity: $1, Cost: $4.0
+Item's name: $Phone, Cost per item: $13.75, Quantity: $1, Cost: $13.75
+Item's name: $Shoes, Cost per item: $30.0, Quantity: $2, Cost: $60.0
+Item's name: $Song, Cost per item: $2.0, Quantity: $3, Cost: $6.0
+Item's name: $Textbook, Cost per item: $25.0, Quantity: $1, Cost: $25.0
+Order Total: $108.75
+----- Order details for client with Id: 1003 -----
+Item's name: $Lamp, Cost per item: $3.5, Quantity: $2, Cost: $7.0
+Item's name: $MovieRental, Cost per item: $4.0, Quantity: $1, Cost: $4.0
+Item's name: $Phone, Cost per item: $13.75, Quantity: $2, Cost: $27.5
+Order Total: $38.5
+----- Order details for client with Id: 1001 -----
+Item's name: Blu-Ray, Cost per item: $15.0, Quantity: 2, Cost: $30.0
+Item's name: Lamp, Cost per item: $3.5, Quantity: 1, Cost: $3.5
+Item's name: Phone, Cost per item: $13.75, Quantity: 2, Cost: $27.5
+Item's name: Shoes, Cost per item: $30.0, Quantity: 1, Cost: $30.0
+Item's name: Song, Cost per item: $2.0, Quantity: 1, Cost: $2.0
+Order Total: $93.0
+----- Order details for client with Id: 1002 -----
+Item's name: MovieRental, Cost per item: $4.0, Quantity: 1, Cost: $4.0
+Item's name: Phone, Cost per item: $13.75, Quantity: 1, Cost: $13.75
+Item's name: Shoes, Cost per item: $30.0, Quantity: 2, Cost: $60.0
+Item's name: Song, Cost per item: $2.0, Quantity: 3, Cost: $6.0
+Item's name: Textbook, Cost per item: $25.0, Quantity: 1, Cost: $25.0
+Order Total: $108.75
+----- Order details for client with Id: 1003 -----
+Item's name: Lamp, Cost per item: $3.5, Quantity: 2, Cost: $7.0
+Item's name: MovieRental, Cost per item: $4.0, Quantity: 1, Cost: $4.0
+Item's name: Phone, Cost per item: $13.75, Quantity: 2, Cost: $27.5
+Order Total: $38.5
+***** Summary of all orders *****
+Item's name: Blu-Ray, Cost per item: $15.0, Quantity: 2, Cost: $30.0
+Item's name: Lamp, Cost per item: $3.5, Quantity: 2, Cost: $7.0
+Item's name: Phone, Cost per item: $13.75, Quantity: 2, Cost: $27.5
+Item's name: Shoes, Cost per item: $30.0, Quantity: 2, Cost: $60.0
+Item's name: Song, Cost per item: $2.0, Quantity: 2, Cost: $4.0
+Item's name: MovieRental, Cost per item: $4.0, Quantity: 2, Cost: $8.0
+Item's name: Textbook, Cost per item: $25.0, Quantity: 2, Cost: $50.0
+Order Total: $186.5

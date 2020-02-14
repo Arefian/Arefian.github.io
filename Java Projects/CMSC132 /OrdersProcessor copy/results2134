@@ -1,0 +1,28 @@
+----- Order details for client with Id:1001 ----- +
+
+Item's name: Blu-Ray, Cost per item: 15.0Quantity, : 1, Cost: 15.0
+Item's name: Lamp, Cost per item: 3.5Quantity, : 1, Cost: 7.0
+Item's name: MovieRental, Cost per item: 4.0Quantity, : 1, Cost: 8.0
+Item's name: Phone, Cost per item: 13.75Quantity, : 1, Cost: 55.0
+Item's name: Shoes, Cost per item: 30.0Quantity, : 1, Cost: 90.0
+Item's name: Song, Cost per item: 2.0Quantity, : 1, Cost: 6.0
+Item's name: Textbook, Cost per item: 25.0Quantity, : 1, Cost: 25.0
+This is total inventory cost 206.0----- Order details for client with Id:1002 ----- +
+
+Item's name: Blu-Ray, Cost per item: 15.0Quantity, : 1, Cost: 15.0
+Item's name: Lamp, Cost per item: 3.5Quantity, : 1, Cost: 7.0
+Item's name: MovieRental, Cost per item: 4.0Quantity, : 1, Cost: 8.0
+Item's name: Phone, Cost per item: 13.75Quantity, : 1, Cost: 55.0
+Item's name: Shoes, Cost per item: 30.0Quantity, : 1, Cost: 90.0
+Item's name: Song, Cost per item: 2.0Quantity, : 1, Cost: 6.0
+Item's name: Textbook, Cost per item: 25.0Quantity, : 1, Cost: 25.0
+This is total inventory cost 412.0----- Order details for client with Id:1003 ----- +
+
+Item's name: Blu-Ray, Cost per item: 15.0Quantity, : 1, Cost: 15.0
+Item's name: Lamp, Cost per item: 3.5Quantity, : 1, Cost: 7.0
+Item's name: MovieRental, Cost per item: 4.0Quantity, : 1, Cost: 8.0
+Item's name: Phone, Cost per item: 13.75Quantity, : 1, Cost: 55.0
+Item's name: Shoes, Cost per item: 30.0Quantity, : 1, Cost: 90.0
+Item's name: Song, Cost per item: 2.0Quantity, : 1, Cost: 6.0
+Item's name: Textbook, Cost per item: 25.0Quantity, : 1, Cost: 25.0
+This is total inventory cost 618.0

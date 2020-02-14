@@ -1,0 +1,1 @@
+element: Blu-Ray, count: 2 item Price 30.0element: Blu-Ray, count: 2 item Price 15.0element: Lamp, count: 1 item Price 3.5element: Phone, count: 2 item Price 27.5element: Phone, count: 2 item Price 13.75element: Shoes, count: 1 item Price 30.0element: Song, count: 1 item Price 2.0This is the inventory price: 93.0

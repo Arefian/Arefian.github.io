@@ -1,0 +1,11 @@
+# Submit server .submit file for
+#  Course cmsc132
+#  Project 7: Polymorphic Binary Search Tree
+
+courseName=cmsc132
+semester=201808
+projectNumber=7
+courseKey=4a805dbfb0683061
+authentication.type=ldap
+baseURL=https://submit.cs.umd.edu:443/fall2018
+submitURL=https://submit.cs.umd.edu:443/fall2018/eclipse/SubmitProjectViaEclipse
