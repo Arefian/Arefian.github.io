@@ -7,11 +7,12 @@ html, body {
 
 html {
   font-size: 10px;
-  background-color: #a9a9a9;
+  background-color: #00FFFF;
 }
 
 body {
   width: 70%;
+
   min-width: 800px;
   margin: 0 auto;
 }
@@ -19,12 +20,15 @@ body {
 /* || typography */
 
 h1, h2, h3 {
-  font-family: 'Cinzel Decorative', cursive;
-  color: #2a2a2a;
+  font-family: 'Odibee Sans';
+
+  color: #000fff;
 }
 
 p, input, li {
-  font-family: 'Roboto Condensed', sans-serif;
+
+  font-family: 'Odibee Sans', Arial, Helvetica, sans-serif;
+  font-weight: 200;
   color: #2a2a2a;
 }
 
@@ -32,6 +36,7 @@ h1 {
   font-size: 4rem;
   text-align: center;
   text-shadow: 2px 2px 10px black;
+
 }
 
 h2 {
@@ -67,13 +72,15 @@ main, header, nav, article, aside, footer, section {
 }
 
 h1 {
-  flex: 5;
+  font-weight: 600;
+  flex: 100;
   text-transform: uppercase;
 }
 
 header img {
   display: block;
-  height: 60px;
+  height: 40px;
+  width: 40px;
   padding-top: 20.15px;
 }
 
@@ -103,13 +110,15 @@ nav a, nav span {
   line-height: 1.7;
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
+  color: rgb(49, 39, 39);
 
 }
 
 /* || main layout */
 
 main {
+  
+
   display: flex;
 }
 
