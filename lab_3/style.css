@@ -11,6 +11,8 @@ html {
 }
 
 body {
+  background-color: #000FFF;
+
   width: 70%;
 
   min-width: 800px;
@@ -21,7 +23,7 @@ body {
 
 h1, h2, h3 {
   font-family: 'Odibee Sans';
-  color: #000fff;
+  color: #0fffff;
 }
 
 p, input, li {
@@ -61,13 +63,13 @@ header {
 }
 
 body > * {
-  background-color: red;
-  padding: 1%;
+  padding: 2%;
 }
 
 main, header, nav, article, aside, footer, section {
-  background-color: rgba(0,255,0,0.5);
-  padding: 1%;
+  background-color: rgb(224, 123, 224);
+
+  padding: 2%;
 }
 
 h1 {
