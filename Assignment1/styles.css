@@ -1,0 +1,114 @@
+/*Set the background color of your header div in HTML-1 to a dark color and change the text color to a light color.
+Set your header div to take up the entire width of a page, with no edge spacing
+Ensure all elements are vertically centered within the header block.
+Your name should be to the left, and your image to the right.
+Your elements should wrap when your page size changes.
+Your header should have fifteen pixels of space between it and your content div.
+When your page is compressed, your elements should center themselves horizontally.*/
+
+/* || General setup */
+
+html, body {
+   /* margin: 0;
+    padding: 0;*/
+  }
+  
+  html {
+    font-size: 10px;
+    background-color: #00FFFF;
+  }
+  
+  body {
+    background-color: #000FFF;
+  
+  
+    min-width: 800px;
+    margin: 0 auto;
+  }
+/* || header layout */
+
+header {/*Variables and tags slighlty adjusted, code taken from G-Cyr: */
+    background-color: red;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+
+  }
+  header > .image {
+    flex: 1 0 0%;
+    text-align:right;/* and here*/
+  }
+  .image > img {
+    vertical-align:top;/* here */
+    max-width: 100%;
+    max-height: 300px;
+    flex-wrap: wrap;
+
+  }
+  
+header > .text {
+    flex: 2 0 0%;
+    /* and eventually */
+    
+    margin:auto 0;
+  } /* https://stackoverflow.com/questions/50243239/flexbox-image-on-the-right-side */
+
+
+  /* || Body layout */
+  .wrapper{
+    margin:auto 0;
+
+  }
+  .content{
+    width: 960px
+  }
+  .content image{
+
+  }
+ .caption{
+
+} 
+
+  body > * {
+   
+  }
+  
+  main, header, nav, article, aside, footer, section {
+   /* background-color: rgb(224, 123, 224);
+  
+    padding: 2%; */
+  }
+  
+  h1 {
+   /* font-weight: 600;
+    flex: 100;
+    text-transform: uppercase;*/
+  }
+  
+  header img {
+   /* display: block;
+    height: 40px;
+    width: 40px;
+    padding-top: 20.15px;*/
+  }
+  
+  nav {
+  /*  height: 50px;
+    flex: 100%;
+    display: flex;*/
+  }
+  
+  nav ul {
+   /* padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;*/
+  }
+  
+  nav li {
+   /* display: inline;
+    text-align: center;
+    flex: 1;
+  }*/
+  
+   
