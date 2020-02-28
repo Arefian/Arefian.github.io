@@ -1,10 +1,3 @@
-/*Set the background color of your header div in HTML-1 to a dark color and change the text color to a light color.
-Set your header div to take up the entire width of a page, with no edge spacing
-Ensure all elements are vertically centered within the header block.
-Your name should be to the left, and your image to the right.
-Your elements should wrap when your page size changes.
-Your header should have fifteen pixels of space between it and your content div.
-When your page is compressed, your elements should center themselves horizontally.*/
 
 /* || General setup */
 
@@ -16,7 +9,7 @@ When your page is compressed, your elements should center themselves horizontall
   body {
    
     background-color: #FDF5E6;
-
+    font-family: sans-serif;
   
   }
 /* || header layout */
@@ -39,16 +32,10 @@ When your page is compressed, your elements should center themselves horizontall
     max-width: 300px;
     max-height: 300px;
     flex-wrap: wrap;
+    margin-bottom: 5px;
 
   }
   
-
-
-    
-  
-  
-  /* https://stackoverflow.com/questions/50243239/flexbox-image-on-the-right-side */
-
 
   /* || Body layout */
 
@@ -94,7 +81,8 @@ When your page is compressed, your elements should center themselves horizontall
     /* border: solid #FDF5E6 10px; */
     background-color: white;
     flex: 0 1 auto;
-    
+    margin-bottom: 15px;
+
   }
   h1{
       color: aqua;
@@ -109,7 +97,7 @@ h2{
 }
 h4{
     margin-block-end: 0.1em;
-font-style: italic;
+    font-style: italic;
 }
 @media all and (max-width: 1000px) {
    
