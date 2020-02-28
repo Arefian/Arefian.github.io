@@ -7,49 +7,82 @@ One of those <div> elements should contain an image
     followed by a short "caption" description contained in p tag
      of your real or imagined professional goals.-->
 <!DOCTYPE html>
+<head>
 <html lang="eng">
     <meta charset="utf-8">
     <link rel="stylesheet" type = "text/css" href="styles.css">
-<head>
+    <title>Daniel Arefian</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:600&display=swap" rel="stylesheet">
+</head>
+<body>
   
-        <header> <!-- Variables and tags slighlty adjusted, code taken from G-Cyr: -->
+        <div class="tophead"> 
+                <h1>Daniel Arefian</h1>
+
+
             <div class="image">
                 <img src="UMD_logo.png" alt="University of Maryland logo" >
 
             </div>
-            <div class="text">
-                <h1>Daniel Arefian</h1>
+           
+        </div> 
 
-            </div>
-        </header> <!-- https://stackoverflow.com/questions/50243239/flexbox-image-on-the-right-side--> 
-
-
-    <div class="wrapper">
-        <div class="content">
-
-            <div class= "generic">
-                <div class="content image">
+        <div class="wrapper">
+            <div class= "content">
+                <div class="personal">
                     <img src="family_friendly.png" alt="professional (not really) falcon" >
-    
-                </div>
-                <div class="caption">
-                    <p>A kid that is graduating both from school and league of legends</p>
-                </div>
-                <div class="generic2">
-
-
-
+                    
+                    <div class="mycaption">
+                        <caption> <p>Creative problem-solver that has three years of
+                            professional technical experience.  </p>
+                            </caption>
+                            </div>
                 </div>
 
-            </div>
+
+                <div class="resume">
+                    <h2>Roles</h2>
+                    <ol>
+                        <li><h4>University of Maryland Division of IT: Level 2 Technician</h4></li>
+                        <ul>
+                            Student Technician that services Classroom technologies.
+                            <li>Coordinated with team leads to design university technology instruction manuals for entire staff.</li>
+                            <li>Successfully evaluated, resolved, and/or escalated customers' tickets in ServiceNow for Crestron technologies and classroom PC repair issues    </li>                            
+                            <li>Performed root cause analysis, risk identification and risk mitigation for threat prevention.                            </li>
+                        </ul>
+                        <li><h4>Silver Knights Academy: Coding Instructor </h4></li>
+                        <ul>
+                            Scratch Instructor position with elementary students.
+                        <li>Collaborated with assistants on instructing Scratch programming for elementary students </li>                     
+                        <li> Participated in designing programs to boost student enrollment . </li>       
+                        <li> Explained basic OOP concepts </li>
+                        </ul>
+                        <li><h4>Alim Academy: Network Assistant</h4>	</li>
+                        <ul>
+                            Part-time network and hardware routine maintenance.  
+                            <li>Shadowed under Network technician, configuring firewalls and onsite disaster recovery protocols
+                            </li>
+                            <li>Updated classroom PC's and cleaned hard drives </li>
+                            <li>Worked on writing documentation for teachers to access different software</li>
+                        </ul>
+                      </ol>
+                </div>
+
+                
+         
+               
+            
+           
+
+         <!--    <div class="mycaption">
+                <caption> <p>Creative problem-solver that has three years of
+                professional technical experience.  </p>
+                </caption>
+            </div>-->
+        
 
         </div>
-
     </div>
- 
-<title>Test</title>
-</head>
-<body>
-<p></p>
+
 </body>
 </html>
