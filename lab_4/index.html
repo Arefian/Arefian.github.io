@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Prof A's Demo Page</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="header">Prof A's Demo Page</div>
+        <button class="button" onclick="clickMe()">
+          Click me to make a change
+        </button>
+        <div class="content">
+          <p>
+            Retro fam narwhal hoodie meggings viral bushwick yr chartreuse.
+            Chartreuse seitan banh mi selfies, woke ennui venmo craft beer. Air
+            plant tumeric retro DIY iPhone poutine. +1 gastropub chillwave,
+            cronut glossier pork belly tacos poke next level fanny pack vegan
+            jianbing lo-fi.
+          </p>
+        </div>
+        <div class="footer"></div>
+      </div>
+    </div>
+    <script>
+
+
+      function clickMe() {
+        let contentvar = document.querySelector(".content"); 
+
+        let name = "Daniel Arefian"
+        let res = name.charAt(2)
+        let sub = name.substring(11, 14);
+        let upperCase = res.toUpperCase();
+        let firstname = name.substring(0,6);
+        let lastname = name.substring(7,14);
+        let total = firstname.length + lastname.length;
+
+        const myHeading = document.querySelector('.header');
+        myHeading.textContent = 'Daniels Lab 4 ' + total;
+
+        const content = document.querySelector(".content");
+        content.innerHTML = "\nHello world"; 
+
+        let para1 = document.createElement("p"); 
+        let newContent1 = document.createTextNode("My name is "+ name.length ); 
+        para1.appendChild(newContent1);
+        contentvar.appendChild(para1);     
+        
+        let newDiv = document.createElement("p"); 
+        let newContent = document.createTextNode("the third character in my name is "+ upperCase); 
+        newDiv.appendChild(newContent);
+        contentvar.appendChild(newDiv);   
+        let newLine = document.createTextNode("\n  "+ sub);
+        contentvar.appendChild(newLine);
+
+      }
+    </script>
+
+  </body>
+</html>
