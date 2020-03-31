@@ -14,11 +14,10 @@ let imgs = ['pic1.jpg','pic2.jpg','pic3.jpg','pic4.jpg','pic5.jpg'];
 
 /* Looping through images */
 
-const newImage = document.createElement('img');
-newImage.setAttribute('src', 'xxx');
-thumbBar.appendChild(newImage);
-
 for (let i = 0; i < imgs.length; i++) {
+    const newImage = document.createElement('img');
+    newImage.setAttribute('src', 'xxx');
+    thumbBar.appendChild(newImage);
     newImage.setAttribute('src',imgs[i])
     //document.querySelector('.thumb-bar').innerHTML += "<img src='" + imgs[i] + "' class='images'></img>";
     newImage.onclick = function() {
