@@ -18,7 +18,7 @@ const newImage = document.createElement('img');
 newImage.setAttribute('src', 'xxx');
 thumbBar.appendChild(newImage);
 
-for (i = 0; i < imgs.length; i++) {
+for (let i = 0; i < imgs.length; i++) {
     newImage.setAttribute('src',imgs[i])
     //document.querySelector('.thumb-bar').innerHTML += "<img src='" + imgs[i] + "' class='images'></img>";
     newImage.onclick = function() {
