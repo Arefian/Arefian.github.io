@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <link rel="stylesheet" href="form_styles.css">
+
     <title>Forms Lab</title>
+    
   </head>
   <body>
     <div class="wrapper">
@@ -9,6 +13,18 @@
         <div>
           <h1>HTML 1 Forms Lab</h1>
         </div>
+
+  <form action="https://nameless-thicket-21836.herokuapp.com/lab" method="post">
+    <label for="name">Name</label> </br>
+    <input type="text" id="name" />
+  </br> <label for="interests">Interests</label></br>
+    <textarea id="interests" name="interests"
+        rows="5" cols="35"
+    >Enter yo interests
+    </textarea><br/>
+    <button class="button" type="submit">Submit</button>
+  </form>
+
       </div>
     </div>
   </body>
