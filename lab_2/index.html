@@ -89,3 +89,40 @@ Yours sincerely,<br>
 <br>UMD motto: "Fear the Turtle" -- <i>How did this happen,<u> anyway.</u></i>
     </body>
  </html>
+
+
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Maps Lab</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+    
+      <div class="wrapper">
+       
+
+        <div class="header">Frontend Libraries: Maps Lab</div>
+        <div class="content">
+          <div id="mapid">
+          
+          </div>
+                </div>
+        <div class="footer">Make some markers work!</div>
+      </div>
+    </div>
+    <script>
+        /* Your lab code can go here, or in an external file you include */
+        const mapid = L.map(document.querySelector(".content")).setView([51.505, -0.09], 13);
+
+
+L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=BLJrYbE2a6GLJzHuLfJt',{
+   attributution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
+    }).addTo(mapid);
+   </script>
+  </body>
+</html>
