@@ -30,7 +30,7 @@ h3 {
 }
 
 .wrapper {
-  min-height: 100%;
+  min-height: 10%;
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -67,12 +67,13 @@ h3 {
 
 .content {
   background: #fff;
-  border: 2px dotted #444;
+  border: 2px dotted rgb(71, 202, 59);
   align-self: flex-start;
   width: 85%;
   padding: 10px;
   overflow-wrap: break-word;
   margin: 25px 50px;
+  height: 400px;
 }
 
 .activate {
