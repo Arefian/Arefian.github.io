@@ -9,16 +9,39 @@
 <body>
   <div class="container">
     <div class="wrapper">
-      <div class="header">Replace Me With Your Lab Page</div>
+      <div class="header">Lab 9</div>
       <div class="content"></div>
+     <div id='box'></div></div>
       <div class="footer"></div>
     </div>
   </div>
   <script>
     fetch('/api') // Rather than fetching from PG County, we're going to fetch from our own server.
-      .then(res => res.json())
-      .then(res => {
+      .then(result => result.json())
+      .then(result => {
         // Here's where your chart code should go.
+
+
+        const chart = new CanvasJS.Chart("box", {
+          
+          title: {
+            text: "What is classified as eating locations in PG county",
+          },
+          
+          data: [
+            {
+              type: "pie",
+              startAngle: 25,
+              toolTipContent: "<b>{label}</b>: {y}",
+              showInLegend: "true",
+              legendText: "{label}",
+              indexLabelFontSize: 16,
+              indexLabel: "{label} - {y}",               
+              dataPoints: results
+              }]
+        });
+        return chart;
+        chart.render();
       })
   </script>
 </body>
